@@ -62,12 +62,71 @@
 .hero .container img {
     width: 100%;
     height: 800px;
-    position: relative;
-    z-index: 9;
 }
 
-.hero .container span {
-    position: absolute;
-    z-index: 99;
+.hero {
+    background-image: url(https://images.pexels.com/photos/5709944/pexels-photo-5709944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    height: 700px;
+}
 
+.hero .container p {
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.hero .container h1 {
+    font-size: 6rem;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+.hero .container #btn-1{
+    background-color: #c58a52;
+    border-style: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 55px;
+    position: absolute;
+    top: 620px;
+    left: 150px;
+}
+
+.hero .container #btn-2{
+    background-color: #1B1B1B;
+    border-style: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 55px;
+    position: absolute;
+    top: 620px;
+    left: 350px;
+}
+
+.section{
+    background-color: #121414;
+    height: 800px;
+    position: relative;
+}
+
+.section .container #pera-outer{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    color: #a06c47;
+}
+.section .container #pera-bottom{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    font-size: 45px;
+}
+.section .container #peragraph{
+    position: absolute;
+    top: 370px;
+    left: 150px;
+    color: rgb(156, 156, 156);
 }
