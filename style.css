@@ -131,6 +131,7 @@
     position: absolute;
     top: 370px;
     left: 130px;
+    width: 460px;
     color: rgb(156, 156, 156);
 }
 
@@ -144,4 +145,30 @@
 
 .section .container p {
     width: 500px;
+}
+
+.container #card-img {
+    width: 450px;
+    height: 130px;
+    background-color: #c58a52;
+    position: absolute;
+    left: 130px;
+    top: 500px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.container #card-img p {
+    width: 100%;
+    padding-left: 130px;
+    line-height: 34px;
+    font-weight: 800;
+}
+
+.container #card-img img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
 }
