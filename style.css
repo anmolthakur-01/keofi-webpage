@@ -84,7 +84,7 @@
     left: 150px;
 }
 
-.hero .container #btn-1{
+.hero .container #btn-1 {
     background-color: #c58a52;
     border-style: none;
     border-radius: 10px;
@@ -95,7 +95,7 @@
     left: 150px;
 }
 
-.hero .container #btn-2{
+.hero .container #btn-2 {
     background-color: #1B1B1B;
     border-style: none;
     border-radius: 10px;
@@ -106,27 +106,42 @@
     left: 350px;
 }
 
-.section{
+.section {
     background-color: #121414;
     height: 800px;
     position: relative;
 }
 
-.section .container #pera-outer{
+
+.section .container #pera-outer {
     position: absolute;
     top: 200px;
-    left: 150px;
+    left: 130px;
     color: #a06c47;
 }
-.section .container #pera-bottom{
+
+.section .container #pera-bottom {
     position: absolute;
     top: 230px;
-    left: 150px;
+    left: 130px;
     font-size: 45px;
 }
-.section .container #peragraph{
+
+.section .container #peragraph {
     position: absolute;
     top: 370px;
-    left: 150px;
+    left: 130px;
     color: rgb(156, 156, 156);
+}
+
+.section .container img {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 180px;
+    right: 60px;
+}
+
+.section .container p {
+    width: 500px;
 }
